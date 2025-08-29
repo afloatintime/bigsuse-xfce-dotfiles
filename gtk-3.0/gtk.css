@@ -1,0 +1,149 @@
+@import 'colors.css';
+
+.xfce4-panel {
+  border: none;
+}
+
+/* Configuration icons tray XFCE */
+ #xfce4-notification-plugin *, #xfce4-power-manager-plugin *, #pulseaudio-button *, #indicator-button *, #sn-button *, #showdesktop-button * {
+ -gtk-icon-transform: scale(0.8);
+}
+
+#pulseaudio-button * {
+ -gtk-icon-transform: scale(0.6);
+}
+
+#xfce4-clipman-plugin * {
+ -gtk-icon-transform: scale(0.6);
+}
+
+/* Configuration Calendar XFCE */
+calendar {
+font-size: 16px;
+padding: 8px;
+border: 0px;
+outline: none;
+}
+
+/* Whisker Menu XFCE */
+#whiskermenu-window * {
+  border: 0px;
+  outline: none;
+  font-weight: normal;
+  text-shadow: none;
+}
+
+#whiskermenu-window {
+  border-radius: 15px 15px 0px 0px;
+}
+
+#whiskermenu-window button:focus,
+#whiskermenu-window button:hover,
+#whiskermenu-window button:active,
+#whiskermenu-window button:selected,
+#whiskermenu-window treeview:selected,
+#whiskermenu-window treeview:hover,
+#whiskermenu-window treeview:active,
+#whiskermenu-window treeview:focus
+{
+transition: 200ms;
+}
+
+#whiskermenu-window treeview:focus {
+background: transparent;
+}
+#whiskermenu-window iconview{
+background: transparent;
+border-radius: 8px;
+}
+
+#whiskermenu-window button {
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+#whiskermenu-window iconview:hover{
+transition: 200ms;
+}
+
+#whiskermenu-window iconview{
+background: transparent;
+border-radius: 10px;
+transition: 200ms;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+.thunar * { border: 0 }
+
+
+.thunar .vertical .view {
+    border-bottom-left-radius: 12px;
+}
+
+.thunar .vertical .view, .thunar toolbar {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.thunar toolbar * {
+}
+
+.thunar .vertical .view:selected {
+    border-radius: 8px;
+
+}
+.view { padding-right: 5px; }
+
+.thunar .vertical *:backdrop, .thunar toolbar:backdrop {
+}
+
+.thunar:not(.maximized):not(.fullscreen):not(.popup):not(.menu):not(.dropdown):not(.tooltip):not(.context-menu) .sidebar {
+    border-bottom-left-radius: 12px;
+}
+
+.thunar .sidebar {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+window:not(.maximized):not(.fullscreen):not(.popup):not(.menu):not(.dropdown):not(.tooltip):not(.context-menu) decoration, window.csd:not(.maximized):not(.fullscreen) {
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+/* Thunar iconview specific properties */
+.thunar {
+    -ThunarIconView-row-spacing: 25;
+    -ThunarIconView-column-spacing: 50;
+}
+
+/* Logout Screen XFCE */
+.xfsm-logout-dialog {
+    border-radius: 40px;
+    padding: 0px;
+}
+
+.xfsm-logout-dialog .text-button {
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.xfsm-logout-buttons button {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.xfsm-logout-buttons button:hover {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    padding: 30px;
+    margin: 10px;
+}
