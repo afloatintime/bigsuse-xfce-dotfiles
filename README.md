@@ -14,10 +14,10 @@ A BigLinux-fied OpenSUSE Tumbleweed for XFCE4
 
 ## Reference for installation:
 OhMyBash, Blesh
-https://github.com/ohmybash/oh-my-bash
-https://github.com/akinomyoga/ble.sh
+- https://github.com/ohmybash/oh-my-bash
+- https://github.com/akinomyoga/ble.sh
 Themes, Icons
-https://www.gnome-look.org/p/1441725/
-https://www.gnome-look.org/p/1012430
+- https://www.gnome-look.org/p/1441725
+- https://www.gnome-look.org/p/1012430
 DockbarX
-https://software.opensuse.org/package/dockbarx
+- https://software.opensuse.org/package/dockbarx
