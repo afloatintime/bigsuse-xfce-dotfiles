@@ -13,11 +13,11 @@ A BigLinux-fied OpenSUSE Tumbleweed for XFCE4
 - xfce4-panel-profiles
 
 ## Reference for installation:
-OhMyBash, Blesh
+# OhMyBash, Blesh
 - https://github.com/ohmybash/oh-my-bash
 - https://github.com/akinomyoga/ble.sh
-Themes, Icons
+# Themes, Icons
 - https://www.gnome-look.org/p/1441725
 - https://www.gnome-look.org/p/1012430
-DockbarX
+# DockbarX
 - https://software.opensuse.org/package/dockbarx
